@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>SUNIL KUMAR SONI & CO. | Chartered Accountant Champa Chhattisgarh</title>
+  <meta name="description" content="Official website of SUNIL KUMAR SONI & CO., Chartered Accountants in Champa, Chhattisgarh. Offering professional auditing, tax consulting, GST returns, company registration, and business loan advisory.">
+  <meta name="keywords" content="Chartered Accountant Champa, CA Sunil Kumar Soni, Audit Champa, GST Filing Janjgir, Tax Consult Champa Chhattisgarh, Company registration Champa, Business Loan Champa">
+  <meta name="author" content="SUNIL KUMAR SONI & CO.">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="SUNIL KUMAR SONI & CO. | Chartered Accountants">
+  <meta property="og:description" content="Professional auditing, taxation, and business financial consulting in Champa, C.G. Over 18 years of advisory excellence.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:3000">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Navigation Bar -->
+  <header class="main-header" id="header">
+    <div class="container nav-container">
+      <a href="/" class="logo-container">
+        <span class="logo-icon"><i class="fas fa-balance-scale-left"></i></span>
+        <div class="logo-text">
+          <h1 id="dyn-firm-name-logo">SUNIL KUMAR SONI & CO.</h1>
+          <span class="logo-subtitle" id="dyn-firm-subtitle-logo">CHARTERED ACCOUNTANTS</span>
+        </div>
+      </a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#faqs" class="nav-link">FAQs</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#contact" class="btn btn-primary btn-nav">Get Consultation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <canvas id="hero-particles" class="particles-canvas"></canvas>
+    <div class="container hero-container">
+      <div class="hero-content scroll-reveal">
+        <div class="badge-pill">
+          <span class="badge-dot"></span>
+          <span class="badge-text">Trust. Integrity. Professional Excellence.</span>
+        </div>
+        <h2 id="dyn-hero-title" class="hero-title">SUNIL KUMAR SONI & CO.</h2>
+        <h3 id="dyn-hero-subtitle" class="hero-subtitle">CHARTERED ACCOUNTANTS</h3>
+        <p id="dyn-hero-tagline" class="hero-desc">Empowering your business growth through strategic tax planning, robust audits, and reliable corporate compliance consulting.</p>
+        
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">Our Services</a>
+          <a href="#contact" class="btn btn-secondary">Contact Partner</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid" id="dyn-stats-grid">
+        <!-- Stats will be loaded dynamically from data.json -->
+        <div class="stat-card">
+          <h4 class="stat-value">18+</h4>
+          <p class="stat-label">Years of Experience</p>
+        </div>
+        <div class="stat-card">
+          <h4 class="stat-value">800+</h4>
+          <p class="stat-label">Clients Empowered</p>
+        </div>
+        <div class="stat-card">
+          <h4 class="stat-value">5K+</h4>
+          <p class="stat-label">Returns Filed</p>
+        </div>
+        <div class="stat-card">
+          <h4 class="stat-value">99%</h4>
+          <p class="stat-label">Retention Rate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">About Our Firm</span>
+        <h2>Commitment to Ethical Financial Partnership</h2>
+        <div class="header-line"></div>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-info scroll-reveal delay-1">
+          <h3 id="dyn-about-welcome">Welcome to SUNIL KUMAR SONI & CO.</h3>
+          <p id="dyn-about-intro" class="lead-text">Established as a premier Chartered Accountancy firm, we provide client-centric auditing, tax advisory, regulatory compliance, and business growth consulting services.</p>
+          <p id="dyn-about-mission">Based in Champa, Chhattisgarh, we serve as trusted financial partners for small businesses, large industrial enterprises, retail partnerships, and individuals across the state and country.</p>
+          
+          <div class="certifications">
+            <div class="cert-item">
+              <span class="cert-icon"><i class="fas fa-graduation-cap"></i></span>
+              <div>
+                <h5>ICAI Registered</h5>
+                <p>Governed by strict professional guidelines of the Institute of Chartered Accountants of India.</p>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-icon"><i class="fas fa-trophy"></i></span>
+              <div>
+                <h5>Local Trust, Global View</h5>
+                <p>Helping local industries structure bank finance and manage filings with contemporary expertise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-values scroll-reveal delay-2">
+          <div class="values-card">
+            <h3>Our Core Values</h3>
+            <div class="values-list" id="dyn-values-list">
+              <!-- Values loaded dynamically from data.json -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section section-padding" id="services">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Key Areas of Practice</span>
+        <h2>Comprehensive Financial Solutions</h2>
+        <div class="header-line"></div>
+        <p class="section-subtitle">We deliver expert compliance, security, and strategic planning across direct tax, assurance, and enterprise setup layers.</p>
+      </div>
+      
+      <div class="services-interactive scroll-reveal">
+        <!-- Service Tabs Sidebar -->
+        <div class="services-tabs" id="dyn-services-tabs">
+          <!-- Service menu tabs populated dynamically -->
+        </div>
+        
+        <!-- Service Details Display Panel -->
+        <div class="services-display-panel" id="dyn-services-display">
+          <!-- Active service detail display dynamically loaded -->
+          <div class="service-display-content">
+            <div class="service-display-header">
+              <span class="service-display-icon"><i class="fas fa-receipt"></i></span>
+              <h3 class="service-display-title">Direct & Indirect Taxation</h3>
+            </div>
+            <p class="service-display-desc">Navigate complex direct and indirect tax landscapes smoothly with professional planning and filings.</p>
+            <div class="service-display-divider"></div>
+            <h4 class="sub-list-title">Core Offerings:</h4>
+            <ul class="service-display-items">
+              <li>Income Tax Return (ITR) preparation & e-filing</li>
+              <li>Advance Tax calculations and planning</li>
+              <li>GST Registration, Monthly Returns & GSTR-9 filings</li>
+              <li>TDS / TCS compliances, filings, and certificates</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section section-padding" id="testimonials">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Client Feedback</span>
+        <h2>Partnering in Success Stories</h2>
+        <div class="header-line"></div>
+      </div>
+      
+      <div class="testimonials-grid" id="dyn-testimonials-grid">
+        <!-- Dynamic Testimonials from data.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+  <section class="faq-section section-padding" id="faqs">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Common Queries</span>
+        <h2>Frequently Asked Questions</h2>
+        <div class="header-line"></div>
+        <p class="section-subtitle">Read quick explanations regarding regulatory audits, GST registrations, and business loan support.</p>
+      </div>
+      
+      <div class="faq-container scroll-reveal" id="dyn-faq-accordion">
+        <!-- FAQs populated dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section section-padding" id="contact">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Get in Touch</span>
+        <h2>Consultation & Enquiry</h2>
+        <div class="header-line"></div>
+        <p class="section-subtitle">Reach out to schedule a consulting slot or inquire about statutory filings.</p>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Contact Details Sidebar -->
+        <div class="contact-info-panel scroll-reveal delay-1">
+          <div class="contact-card">
+            <h3>Office Details</h3>
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <span class="icon-wrap"><i class="fas fa-map-marker-alt"></i></span>
+                <div>
+                  <h5>Office Address</h5>
+                  <p id="dyn-contact-address">In Front of Mateshwari Mandir, Neem Chowk, Sonar Para, Champa, Janjgir-Champa, Chhattisgarh 495671</p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="icon-wrap"><i class="fas fa-phone-alt"></i></span>
+                <div>
+                  <h5>Call Us</h5>
+                  <div id="dyn-contact-phones">
+                    <p><a href="tel:07819244013">07819-244013</a></p>
+                    <p><a href="tel:+918109706200">+91 81097 06200</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="icon-wrap" style="color: #25d366; background-color: rgba(37, 211, 102, 0.05); border-color: rgba(37, 211, 102, 0.15);"><i class="fab fa-whatsapp"></i></span>
+                <div>
+                  <h5>WhatsApp Chat</h5>
+                  <p><a href="https://wa.me/918109706200?text=enquiry%20for%20consultation" target="_blank" style="color: #25d366; font-weight: 600;">+91 81097 06200</a></p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="icon-wrap"><i class="fas fa-envelope"></i></span>
+                <div>
+                  <h5>Email Address</h5>
+                  <p id="dyn-contact-emails"><a href="mailto:fcasunilsoni@gmail.com">fcasunilsoni@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="icon-wrap"><i class="fas fa-clock"></i></span>
+                <div>
+                  <h5>Office Hours</h5>
+                  <p id="dyn-contact-hours">Mon - Sat: 10:00 AM - 7:00 PM<br>Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Embedded Map -->
+          <div class="map-container" id="dyn-map-container">
+            <!-- Map loaded dynamically -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.8105741630133!2d82.64817757529947!3d22.02796245279435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x3a27e3692f4405a3%3A0xe54e3fe72eebc0bc!2sNeem%20Chowk%20Champa!5e0!3m2!1sen!2sin!4v1716654870000!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        
+        <!-- Enquiry Form -->
+        <div class="contact-form-panel scroll-reveal delay-2">
+          <div class="contact-card">
+            <h3>Send an Enquiry</h3>
+            <form id="enquiryForm" class="enquiry-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name <span class="required">*</span></label>
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g., Rajesh Agrawal" required>
+                  <span class="error-msg" id="nameError">Please enter your full name.</span>
+                </div>
+              </div>
+              
+              <div class="form-row split">
+                <div class="form-group">
+                  <label for="emailAddr">Email Address <span class="required">*</span></label>
+                  <input type="email" id="emailAddr" name="emailAddr" placeholder="name@company.com" required>
+                  <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+                </div>
+                <div class="form-group">
+                  <label for="phoneNum">Mobile Number <span class="required">*</span></label>
+                  <input type="tel" id="phoneNum" name="phoneNum" placeholder="e.g., 9876543210" required>
+                  <span class="error-msg" id="phoneError">Please enter a 10-digit mobile number.</span>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="serviceType">Required Service <span class="required">*</span></label>
+                  <select id="serviceType" name="serviceType" required>
+                    <option value="" disabled selected>-- Select a Service --</option>
+                    <option value="consultation">Consultation</option>
+                    <option value="taxation">Taxation Services (GST & ITR)</option>
+                    <option value="audit">Audit & Assurance</option>
+                    <option value="advisory">Business Advisory & Loan Reports</option>
+                    <option value="incorporation">Company / LLP Registration</option>
+                    <option value="accounting">Bookkeeping & Accounting</option>
+                    <option value="general">General Financial Query</option>
+                  </select>
+                  <span class="error-msg" id="serviceError">Please select a service type.</span>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="enquiryMessage">Your Message <span class="required">*</span></label>
+                  <textarea id="enquiryMessage" name="enquiryMessage" rows="5" placeholder="Please describe your requirements in detail..." required></textarea>
+                  <span class="error-msg" id="messageError">Please type your message.</span>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <button type="submit" class="btn btn-primary btn-submit">
+                  <span>Send Message</span>
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Modal for Mock Form Submission -->
+  <div class="modal-overlay" id="successModal">
+    <div class="modal-card">
+      <span class="success-icon"><i class="fas fa-check-circle"></i></span>
+      <h3>Enquiry Submitted Successfully!</h3>
+      <p>Thank you for contacting SUNIL KUMAR SONI & CO. We have received your query regarding <strong id="modal-service-name">Taxation Services</strong>. Our team will review your details and connect with you shortly.</p>
+      
+      <!-- WhatsApp Click to Chat Redirection Trigger Link -->
+      <a href="#" target="_blank" class="btn btn-secondary modal-whatsapp-btn" id="modalWhatsappBtn" style="margin-bottom: 15px; width: 100%; display: none; background-color: #25d366; color: #fff; border-color: #25d366; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2);">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+      
+      <button class="btn btn-primary modal-close-btn" id="closeModalBtn" style="width: 100%;">Close Window</button>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <a href="/" class="footer-logo">
+          <span class="logo-icon"><i class="fas fa-balance-scale-left"></i></span>
+          <h2 id="dyn-footer-name">SUNIL KUMAR SONI & CO.</h2>
+        </a>
+        <p>Providing professional, ethical, and high-quality accounting, taxation, and advisory services. Chartered Accountants helping you structure and protect your growth.</p>
+        <p class="icai-disclaimer"><i class="fas fa-info-circle"></i> Disclaimer: This site conforms to guidelines established by ICAI for members to share information.</p>
+      </div>
+      
+      <div class="footer-col links-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Firm</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col contact-col">
+        <h4>Contact Desk</h4>
+        <p><i class="fas fa-map-marker-alt"></i> <span id="dyn-footer-address">Champa, Distt Janjgir-Champa, Chhattisgarh</span></p>
+        <p><i class="fas fa-phone-alt"></i> <span id="dyn-footer-phone">07819-244013</span></p>
+        <p><i class="fas fa-envelope"></i> <span id="dyn-footer-email">fcasunilsoni@gmail.com</span></p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container bottom-container">
+        <p>&copy; 2026 SUNIL KUMAR SONI & CO. All Rights Reserved.</p>
+        <p>Designed for Trust & Stability</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Javascripts -->
+  <script type="module" src="js/particles.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

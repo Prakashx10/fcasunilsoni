@@ -1,0 +1,23 @@
+{
+  "name": "casunilsoni",
+  "version": "1.0.0",
+  "description": "Website for SUNIL KUMAR SONI & CO. Chartered Accountants",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "nodemailer": "^9.0.3"
+  },
+  "keywords": [
+    "chartered-accountant",
+    "express",
+    "vanilla-js"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

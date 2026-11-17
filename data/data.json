@@ -1,0 +1,173 @@
+{
+  "firmName": "SUNIL KUMAR SONI & CO.",
+  "title": "CHARTERED ACCOUNTANTS",
+  "tagline": "Financial Integrity, Strategic Growth, Professional Excellence",
+  "foundedYear": 2008,
+  "experienceYears": 18,
+  "stats": [
+    {
+      "id": "exp",
+      "value": "18+",
+      "label": "Years of Experience"
+    },
+    {
+      "id": "clients",
+      "value": "800+",
+      "label": "Clients Empowered"
+    },
+    {
+      "id": "filings",
+      "value": "5K+",
+      "label": "Successful Returns Filed"
+    },
+    {
+      "id": "retention",
+      "value": "99.2%",
+      "label": "Client Retention Rate"
+    }
+  ],
+  "contact": {
+    "address": {
+      "landmark": "In Front of Mateshwari Mandir",
+      "street": "Neem Chowk, Sonar Para",
+      "city": "Champa",
+      "district": "Janjgir-Champa",
+      "state": "Chhattisgarh (C.G.)",
+      "pincode": "495671",
+      "fullAddress": "In Front of Mateshwari Mandir, Neem Chowk, Sonar Para, Champa, Distt Janjgir-Champa, Chhattisgarh - 495671"
+    },
+    "phones": [
+      {
+        "display": "07819-244013",
+        "value": "07819244013"
+      },
+      {
+        "display": "+91 81097 06200",
+        "value": "+918109706200"
+      }
+    ],
+    "emails": [
+      "fcasunilsoni@gmail.com"
+    ],
+    "workingHours": "Mon - Sat: 10:00 AM - 7:00 PM (Sunday Closed)",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.8105741630133!2d82.64817757529947!3d22.02796245279435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x3a27e3692f4405a3%3A0xe54e3fe72eebc0bc!2sNeem%20Chowk%20Champa!5e0!3m2!1sen!2sin!4v1716654870000!5m2!1sen!2sin"
+  },
+  "about": {
+    "welcome": "Welcome to SUNIL KUMAR SONI & CO.",
+    "intro": "Established as a premier Chartered Accountancy firm, SUNIL KUMAR SONI & CO. is dedicated to providing client-centric auditing, tax advisory, regulatory compliance, and business growth consulting services. Based in Champa, Janjgir-Champa district of Chhattisgarh, we serve as trusted financial partners for small businesses, large industrial enterprises, retail partnerships, and individuals across the state and country.",
+    "mission": "Our mission is to translate complex legal regulations and financial numbers into actionable business intelligence. We practice with the highest standards of professional ethics, integrity, and client confidentiality, helping you secure and scale your enterprise.",
+    "values": [
+      {
+        "title": "Uncompromising Integrity",
+        "desc": "Adhering to the code of ethics defined by the Institute of Chartered Accountants of India (ICAI)."
+      },
+      {
+        "title": "Client-Centricity",
+        "desc": "Customizing our audit and tax approaches to fit the unique scales and operating needs of each business."
+      },
+      {
+        "title": "Strategic Excellence",
+        "desc": "Looking beyond simple filing compliance to identify cost-saving and growth opportunities for our clients."
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "taxation",
+      "icon": "fas fa-receipt",
+      "title": "Taxation Services",
+      "description": "Navigate complex direct and indirect tax landscapes smoothly with professional planning and filings.",
+      "items": [
+        "Income Tax Return (ITR) preparation & e-filing",
+        "Advance Tax calculations and planning",
+        "GST Registration, Monthly Returns & GSTR-9 filings",
+        "TDS / TCS compliances, filings, and certificates",
+        "Representation before Income Tax and GST Authorities"
+      ]
+    },
+    {
+      "id": "audit",
+      "icon": "fas fa-shield-alt",
+      "title": "Audit & Assurance",
+      "description": "Assess corporate and financial health, ensure regulatory compliance, and strengthen internal control structures.",
+      "items": [
+        "Statutory Audit for corporates under Companies Act",
+        "Tax Audit under Section 44AB of Income Tax Act",
+        "Internal & Concurrent Audit for schools, firms, and banks",
+        "Stock Audit & Special Purpose Investigations"
+      ]
+    },
+    {
+      "id": "advisory",
+      "icon": "fas fa-chart-line",
+      "title": "Business Advisory & Loan",
+      "description": "Professional planning support to help you construct project profiles, acquire capital, and structure ventures.",
+      "items": [
+        "Project Report preparation and business plans",
+        "Bank Loan documentation & syndication liaison",
+        "Working Capital management consultancy",
+        "Capital structure planning & profit optimization"
+      ]
+    },
+    {
+      "id": "incorporation",
+      "icon": "fas fa-city",
+      "title": "Business Setup & ROC",
+      "description": "End-to-end support for incorporating businesses, drafting partnerships, and managing statutory filings.",
+      "items": [
+        "Private Limited & OPC Company Incorporation",
+        "Limited Liability Partnership (LLP) registration",
+        "Partnership Deed drafting and Registrar filings",
+        "ROC annual filings (MGT-7, AOC-4) and compliances",
+        "MSME / Udyam and Import Export Code (IEC) registration"
+      ]
+    },
+    {
+      "id": "accounting",
+      "icon": "fas fa-calculator",
+      "title": "Accounting & Bookkeeping",
+      "description": "Outsource your day-to-day accounts management to ensure accurate reporting and regular financial updates.",
+      "items": [
+        "Double-entry bookkeeping and ledger maintenance",
+        "Financial Statements (Balance Sheets, P&L accounts) creation",
+        "Bank Reconciliation Statements (BRS)",
+        "Management Information System (MIS) reports",
+        "Tally & cloud accounting system implementation"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "What is the procedure for GST Registration for new businesses in Champa / Janjgir?",
+      "answer": "GST registration is mandatory for businesses exceeding thresholds (typically ₹40 Lakhs for goods and ₹20 Lakhs for services, or lower for special cases). The procedure requires proof of business ownership, Aadhaar/PAN, photograph, bank details, and proof of address (utility bill or rent agreement). We handle the process from drafting/submission to final registration approval."
+    },
+    {
+      "id": "faq2",
+      "question": "How can SUNIL KUMAR SONI & CO. assist in securing MSME/Business Bank Loans?",
+      "answer": "We assist in drafting professional Project Reports, calculating key financial ratios (DSCR, Current Ratio), formulating CMA data (Credit Monitoring Arrangement), and preparing past audited financial statements. We also guide you on the necessary documentation required by banks to secure working capital and term loans."
+    },
+    {
+      "id": "faq3",
+      "question": "What is a Tax Audit, and is it applicable to my business?",
+      "answer": "Under Section 44AB of the Income Tax Act, a Tax Audit is mandatory if your business turnover exceeds ₹1 Crore (or ₹10 Crores in case of digital transactions under specific conditions), or if your professional receipts exceed ₹50 Lakhs. We conduct thorough examinations of accounts to verify tax compliances and certify the Form 3CA/3CB and 3CD reports."
+    },
+    {
+      "id": "faq4",
+      "question": "How do we get started with your bookkeeping and accounting services?",
+      "answer": "We begin with an initial consultation to understand your business volume, transaction frequency, and current accounting setup. We then establish either a cloud-based sync or regular monthly physical document submissions to maintain your books on Tally, generating regular P&L and Balance Sheet reports for your review."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "SUNIL KUMAR SONI & CO. has been our financial advisor for over a decade. Their approach to tax compliance and detailed understanding of local trading regulations in Chhattisgarh has helped our business expand stress-free.",
+      "author": "Anil Dewangan",
+      "role": "Proprietor, Dewangan Retail Hub"
+    },
+    {
+      "quote": "Drafting CMA report sheets and getting bank loan approvals was simplified thanks to CA Sunil Kumar Soni. Highly recommended for business loans and tax audits in the Janjgir-Champa region.",
+      "author": "Rajesh Agrawal",
+      "role": "Partner, Agrawal Rice Industries"
+    }
+  ]
+}
